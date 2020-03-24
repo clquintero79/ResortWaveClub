@@ -1,0 +1,42 @@
+div{
+    height: 200px;
+    width: 200px;
+    
+}
+.uno{
+    background:red;
+}
+.dos{
+    background:green;
+}
+.tres{
+    background:purple;
+}
+.padre{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.padre2{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.padre3{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+.padre4{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content:flex-end;
+    margin-bottom: 10px;
+}
